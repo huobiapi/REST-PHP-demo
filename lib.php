@@ -190,8 +190,8 @@ class req {
 		if ($from) $postdata['from'] = $from;
 		if ($direct) $postdata['direct'] = $direct;
 		if ($size) $postdata['size'] = $size;
-		$url = $this->create_sign_url();
-		$return = $this->curl($url,$postdata);
+		$url = $this->create_sign_url($postdata);
+		$return = $this->curl($url);
 		return json_decode($return);
 	}
 	// 查询当前成交、历史成交
