@@ -1,8 +1,8 @@
 <?php
 // 定义参数
-define('ACCOUNT_ID', ''); // 你的账户ID 
-define('ACCESS_KEY',''); // 你的ACCESS_KEY
-define('SECRET_KEY', ''); // 你的SECRET_KEY
+define('ACCOUNT_ID', '123456'); // your account ID 
+define('ACCESS_KEY','XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXX'); // your ACCESS_KEY
+define('SECRET_KEY', 'XXXXXXX-XXXXXXX-XXXXXX-XXXXX'); // your SECRET_KEY
 
 include "lib.php";
 
