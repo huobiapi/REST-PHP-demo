@@ -8,7 +8,9 @@ include "lib.php";
 
 //实例化类库
 $req = new req();
+// 获取account-id, 用来替换ACCOUNT_ID
+var_dump($req->get_account_accounts())
 // 获取账户余额示例
-var_dump($req->get_balance());
+//var_dump($req->get_balance());
 
 ?>
