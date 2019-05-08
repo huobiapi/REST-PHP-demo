@@ -4,7 +4,7 @@
 * @author https://github.com/del-xiong
 */
 class req {
-	private $api = 'api.huobi.pro';<?php
+	private $api = 'api.huobi.pro';
 /**
 * 火币REST API库
 * @author https://github.com/del-xiong
